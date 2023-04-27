@@ -1,0 +1,55 @@
+/* Format the body of the pages */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(25, 122, 142);
+    background-color:ivory;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    /* font-size: 18px; */
+}
+
+/* When you click on a link, make it magenta-ish */
+a:visited {
+    color: rgb(92, 7, 64);
+}
+
+/* Use Italics on the li paragraphs */
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Make the Heading on the Resume page slightly larger and bold */
+.resumelistheading {
+    font-size: 15px;
+    font-weight: bold; 
+    font-style: normal;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* Give the Home Page a Background Image */
+.homebg {
+    background-image: url('../Images/background_image_2.jpeg');
+    /* background-position: center; */
+    background-position: top right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(238, 178, 117);
+}
+
+.bold {
+    font-weight: bold;
+}
